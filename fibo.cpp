@@ -16,7 +16,7 @@ int fibonacci(int n)
 
 int main()
 {
-    int n,i=0,j=0;
+    int n,i=0,j=0,k=0;
     cout<<"Input the number of terms for Fibonacci Series:";
     cin>>n;
     cout<<"\nFibonacci Series is as follows\n";
