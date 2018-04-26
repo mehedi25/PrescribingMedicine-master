@@ -88,3 +88,80 @@ void change()
 }
 
 
+void searchbox()
+{
+    cout<<"Enter Drug First Name: ";
+    cin>>first_letter;
+    if(first_letter=="A" || "a")
+    {
+        cout<<"\n\t\tAcetaminophen"<<"\n\t\tAdderall"<<"\n\t\tAlprazolam"<<"\n\t\tAmitriptyline"<<"\n\t\tAmlodipine"<<
+            "\n\t\tAmoxicillin"<<"\n\t\tAtivan"<<"\n\t\tAtorvastatin"<<"\n\t\tAzithromycin"<<endl;
+    }
+    else if(first_letter=="C" || "c")
+    {
+        cout<<"\n\t\tCiprofloxacin"<<
+            "\n\t\tCitalopram"<<"\n\t\tClindamycin"<<"\n\t\tClonazepam"<<"\n\t\tCodeine"<<"\n\t\tCyclobenzaprine"<<
+            "\n\t\tCymbalta"<<endl;
+    }
+    else if(first_letter=="D" || "d")
+    {
+        cout<<"\n\t\tDoxycycline"<<endl;
+    }
+    else if(first_letter=="G" || "g")
+    {
+        cout<<"\n\t\tGabapentin"<<endl;
+    }
+
+    else if(first_letter=="H" || "h")
+    {
+        cout<<"\n\t\tHydrochlorothiazide"<<endl;
+    }
+    else if(first_letter=="I" || "i")
+    {
+        cout<<"\n\t\tIbuprofen"<<endl;
+    }
+    else if(first_letter=="L" || "l")
+    {
+        cout<<"\n\t\tLexapro"<<"\n\t\tLisinopril"<<"\n\t\tLoratadine"<<"\n\t\tLorazepam"<<"\n\t\tLosartan"<<
+            "\n\t\tLyrica"<<endl;
+    }
+    else if(first_letter=="M" || "m")
+    {
+        cout<<"\n\t\tMeloxicam"<<"\n\t\tMetformin"<<"\n\t\tMetoprolol"<<endl;
+    }
+    else if(first_letter=="N" || "n")
+    {
+        cout<<"\n\t\tNaproxen"<<endl;
+    }
+    else if(first_letter=="O" || "o")
+    {
+        cout<<"\n\t\tOmeprazole"<<"\n\t\tOxycodone"<<endl;
+    }
+    else if(first_letter=="P" || "p")
+    {
+        cout<<"\n\t\tPantoprazole"<<"\n\t\tPrednisone"<<endl;
+    }
+    else if(first_letter=="T" || "t")
+    {
+        cout<<"\n\t\tTramadol"<<"\n\t\tTrazodone"<<endl;
+    }
+    else if(first_letter=="V" || "v")
+    {
+        cout<<"\n\t\tViagra"<<endl;
+    }
+    else if(first_letter=="W" || "w")
+    {
+        cout<<"\n\t\tWellbutrin"<<endl;
+    }
+    else if(first_letter=="X" || "x")
+    {
+        cout<<"\n\t\tXanax"<<endl;
+    }
+    else if(first_letter=="Z" || "z")
+    {
+        cout<<"\n\t\tZoloft"<<endl;
+    }
+
+}
+
+
