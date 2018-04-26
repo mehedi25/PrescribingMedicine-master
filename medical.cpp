@@ -52,4 +52,39 @@ void input_Item()
     }
     cout<<endl<<"\t\t\t\t***** Confirm Prescription *****"<<endl<<endl;
 }
+void ok()
+{
+    cout<<endl<<endl<<"\t\t"<<arr[serial-1]<<endl<<endl;
+    cout<<"drug Name: Napa_Extra\n\n\t\t1+0+1 after eating\n\n";
+    cout<<"drug Name: Losectil\n\n\t\t1+0+0 before eating\n\n";
+    cout<<"drug Name: Codeine\n\n\t\t1+0+1 sunday+friday after eating\n\n";
+    cout<<"drug Name: Viagra\n\n\t\t1+0+1 only 1 in every month\n\n";
+    cout<<"\t\t\t\t***** OK *****"<<endl;
+}
+void change()
+{
+    cout<<"\n\n\t\t****** Change your Modication *****"<<endl<<endl;
+    cout<<"Change Item: ";
+    cin>>num;
+    cout<<endl;
+    for(int j=0; j<num; j++)
+    {
+        cout<<"drug Name: ";
+        cin>>nam[j];
+        cout<<endl;
+        cout<<"does: ";
+        cin>>does[j];
+        cout<<endl;
+        cout<<"Eating time: ";
+        cin>>tim[j];
+        cout<<endl;
+    }
+    cout<<"\n\t"<<"Name: "<<arr[serial-1];
+    for(int j=0; j<num; j++)
+    {
+        cout<<"\n\tdrug: "<<nam[j]<<"\tDoes: "<<does[j]<<"\tTime: "<<tim[j]<<endl<<endl;
+    }
+    cout<<endl<<"\t\t\t\t***** Confirm Prescription *****"<<endl<<endl;
+}
+
 
