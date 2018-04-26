@@ -97,11 +97,11 @@ void searchbox()
         cout<<"\n\t\tAcetaminophen"<<"\n\t\tAdderall"<<"\n\t\tAlprazolam"<<"\n\t\tAmitriptyline"<<"\n\t\tAmlodipine"<<
             "\n\t\tAmoxicillin"<<"\n\t\tAtivan"<<"\n\t\tAtorvastatin"<<"\n\t\tAzithromycin"<<endl;
     }
-    else if(first_letter=="C" || "c")     //// OPtion check overall medicine for first letter B
+    else if(first_letter=="C" || "c")     // OPtion check overall medicine for first letter B
     {
         cout<<"\n\t\tCiprofloxacin"<<
             "\n\t\tCitalopram"<<"\n\t\tClindamycin"<<"\n\t\tClonazepam"<<"\n\t\tCodeine"<<"\n\t\tCyclobenzaprine"<<
-            "\n\t\tCymbalta"<<endl;
+            "\n\t\tCymbalta"<<endl;       // Show All Medicine which First Letter Is C 
     }
     else if(first_letter=="D" || "d")
     {
