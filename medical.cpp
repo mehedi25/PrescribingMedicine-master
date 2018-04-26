@@ -16,7 +16,7 @@ string arr[10]= {"Name: Mehedi\tAge: 23\t\tGender: M\tSerial: 1\n\n",
                  "Name: Sumon\tAge: 24\t\tGender: M\tSerial: 7\n\n",
                  "Name: Taskin\tAge: 23\t\tGender: M\tSerial: 8\n\n",
                  "Name: Mukta\tAge: 19\t\tGender: F\tSerial: 9\n\n",
-                 "Name: Tajmira\tAge: 25\t\tGender: F\tSerial:10\n\n"
+                 "Name: muniya\tAge: 25\t\tGender: F\tSerial:10\n\n"
                 };
 
 string drug[100]= {"Acetaminophen","Adderall","Alprazolam","Amitriptyline","Amlodipine",
