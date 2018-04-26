@@ -161,6 +161,10 @@ void searchbox()
     {
         cout<<"\n\t\tZoloft"<<endl;
     }
+  else
+  {
+      cout<<"\n\t\tMedicine is not available"<<endl;  
+  }
 
 }
 
