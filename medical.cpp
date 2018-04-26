@@ -103,9 +103,9 @@ void searchbox()
             "\n\t\tCitalopram"<<"\n\t\tClindamycin"<<"\n\t\tClonazepam"<<"\n\t\tCodeine"<<"\n\t\tCyclobenzaprine"<<
             "\n\t\tCymbalta"<<endl;       // Show All Medicine which First Letter Is C 
     }
-    else if(first_letter=="D" || "d")     //  // OPtion check overall medicine for first letter D
+    else if(first_letter=="D" || "d")     // OPtion check overall medicine for first letter D
     {
-        cout<<"\n\t\tDoxycycline"<<endl;
+        cout<<"\n\t\tDoxycycline"<<endl;  //Given Medine Name of Doxycycline, First Letter is D
     }
     else if(first_letter=="G" || "g")
     {
