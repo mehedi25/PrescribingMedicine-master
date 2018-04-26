@@ -97,7 +97,7 @@ void searchbox()
         cout<<"\n\t\tAcetaminophen"<<"\n\t\tAdderall"<<"\n\t\tAlprazolam"<<"\n\t\tAmitriptyline"<<"\n\t\tAmlodipine"<<
             "\n\t\tAmoxicillin"<<"\n\t\tAtivan"<<"\n\t\tAtorvastatin"<<"\n\t\tAzithromycin"<<endl;
     }
-    else if(first_letter=="C" || "c")
+    else if(first_letter=="C" || "c")     //// OPtion check overall medicine for first letter B
     {
         cout<<"\n\t\tCiprofloxacin"<<
             "\n\t\tCitalopram"<<"\n\t\tClindamycin"<<"\n\t\tClonazepam"<<"\n\t\tCodeine"<<"\n\t\tCyclobenzaprine"<<
