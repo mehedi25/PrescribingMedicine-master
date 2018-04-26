@@ -14,7 +14,7 @@ string arr[10]= {"Name: Mehedi\tAge: 23\t\tGender: M\tSerial: 1\n\n",
                  "Name: Shayan\tAge: 24\t\tGender: M\tSerial: 5\n\n",
                  "Name: Zahed\tAge: 22\t\tGender: M\tSerial: 6\n\n",
                  "Name: Sumon\tAge: 24\t\tGender: M\tSerial: 7\n\n",
-                 "Name: Taki\tAge: 23\t\tGender: M\tSerial: 8\n\n",
+                 "Name: Taskin\tAge: 23\t\tGender: M\tSerial: 8\n\n",
                  "Name: Mukta\tAge: 19\t\tGender: F\tSerial: 9\n\n",
                  "Name: Tajmira\tAge: 25\t\tGender: F\tSerial:10\n\n"
                 };
@@ -35,13 +35,13 @@ void input_Item()
     cout<<endl;
     for(int j=0; j<num; j++)
     {
-        cout<<"drug Name: ";
+        cout<<"drug Name:::: ";
         cin>>nam[j];
         cout<<endl;
-        cout<<"does: ";
+        cout<<"does:::: ";
         cin>>does[j];
         cout<<endl;
-        cout<<"Eating time: ";
+        cout<<"Eating time:::: ";
         cin>>tim[j];
         cout<<endl;
     }
