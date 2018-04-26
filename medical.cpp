@@ -91,8 +91,8 @@ void change()
 void searchbox()
 {
     cout<<"Enter Drug First Name: ";
-    cin>>first_letter;
-    if(first_letter=="A" || "a")
+    cin>>first_letter;                      // Input Medicine First Letter
+    if(first_letter=="A" || "a")            // OPtion check overall medicine for first letter A
     {
         cout<<"\n\t\tAcetaminophen"<<"\n\t\tAdderall"<<"\n\t\tAlprazolam"<<"\n\t\tAmitriptyline"<<"\n\t\tAmlodipine"<<
             "\n\t\tAmoxicillin"<<"\n\t\tAtivan"<<"\n\t\tAtorvastatin"<<"\n\t\tAzithromycin"<<endl;
