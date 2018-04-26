@@ -7,11 +7,11 @@ string name,gender,first_letter;
 string nam[100];
 string does[100];
 string tim[100];
-string arr[10]= {"Name: Mehedi\tAge: 23\tGender: M\tSerial: 1\n\n",
-                 "Name: Sohel\tAge: 22\tGender: M\tSerial: 2\n\n",
-                 "Name: Shakila\tAge: 21\tGender: F\tSerial: 3\n\n",
-                 "Name: Adiba\tAge: 20\tGender: F\tSerial: 4\n\n",
-                 "Name: Shayan\tAge: 24\tGender: M\tSerial: 5\n\n",
+string arr[10]= {"Name: Mehedi\tAge: 23\t\tGender: M\tSerial: 1\n\n",
+                 "Name: Sohel\tAge: 22\t\tGender: M\tSerial: 2\n\n",
+                 "Name: Shakila\tAge: 21\t\tGender: F\tSerial: 3\n\n",
+                 "Name: Adiba\tAge: 20\t\tGender: F\tSerial: 4\n\n",
+                 "Name: Shayan\tAge: 24\t\tGender: M\tSerial: 5\n\n",
                  "Name: Zahed\tAge: 22\t\tGender: M\tSerial: 6\n\n",
                  "Name: Sumon\tAge: 24\t\tGender: M\tSerial: 7\n\n",
                  "Name: Taskin\tAge: 23\t\tGender: M\tSerial: 8\n\n",
