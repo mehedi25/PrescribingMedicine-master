@@ -52,7 +52,7 @@ void input_Item()
     }
     cout<<endl<<"\t***** Confirm Prescription *****"<<endl<<endl;
 }
-void ok()
+void ok()                                                            // it is previous prescription
 {
     cout<<endl<<endl<<"\t\t"<<arr[serial-1]<<endl<<endl;
     cout<<"drug Name: Napa_Extra\n\n\t\t1+0+1 after eating\n\n";
