@@ -26,7 +26,7 @@ string drug[100]= {"Acetaminophen","Adderall","Alprazolam","Amitriptyline","Amlo
                    "Lexapro","Lisinopril","Loratadine","Lorazepam","Losartan",
                    "Lyrica","Meloxicam","Metformin","Metoprolol","Naproxen",
                    "Omeprazole","Oxycodone","Pantoprazole","Prednisone","Tramadol",
-                   "Trazodone","Viagra","Wellbutrin","Xanax","Zoloft"
+                   "Trazodone","Viagra","Wellbutrin","Xanax","Zoloft","Valium"
                   };
 void input_Item()
 {
@@ -58,12 +58,12 @@ void ok()
     cout<<"drug Name: Napa_Extra\n\n\t\t1+0+1 after eating\n\n";
     cout<<"drug Name: Losectil\n\n\t\t1+0+0 before eating\n\n";
     cout<<"drug Name: Codeine\n\n\t\t1+0+1 sunday+friday after eating\n\n";
-    cout<<"drug Name: Viagra\n\n\t\t1+0+1 only 1 in every month\n\n";
+    cout<<"drug Name: Seclo\n\n\t\t1+0+1 only 1 in every month\n\n";
     cout<<"\t\t\t\t***** OK *****"<<endl;
 }
 void change()
 {
-    cout<<"\n\n\t\t****** Change your Modication *****"<<endl<<endl;
+    cout<<"\n\n\t\t****** Change your Medication *****"<<endl<<endl;
     cout<<"Change Item: ";
     cin>>num;
     cout<<endl;
@@ -147,7 +147,7 @@ void searchbox()
     }
     else if(first_letter=="V" || "v")
     {
-        cout<<"\n\t\tViagra"<<endl;
+        cout<<"\n\t\tValium"<<endl;
     }
     else if(first_letter=="W" || "w")
     {
