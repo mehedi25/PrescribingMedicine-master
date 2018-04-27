@@ -7,7 +7,7 @@ string name,gender,first_letter;
 string nam[100];
 string does[100];
 string tim[100];
-string arr[10]= {"Name: Mehedi\tAge: 23\t\tGender: M\tSerial: 1\n\n",
+string arr[100]= {"Name: Mehedi\tAge: 23\t\tGender: M\tSerial: 1\n\n",
                  "Name: Sohel\tAge: 22\t\tGender: M\tSerial: 2\n\n",
                  "Name: Shakila\tAge: 21\t\tGender: F\tSerial: 3\n\n",
                  "Name: Adiba\tAge: 20\t\tGender: F\tSerial: 4\n\n",
@@ -166,6 +166,46 @@ void searchbox()
       cout<<"\n\t\tMedicine is not available"<<endl;  
   }
 
+}
+void medistore()
+{
+    cout<<"Enter Your Serial: ";
+    cin>>serial;
+    if(serial==1||2||3||4||5||6||7||8||9||10)
+    {
+        cout<<endl<<"Select Your modication field:\n\n\t\t1.Current Modication     (press 1)\n\t\t2.New Modication         (press 2)\n\t\t3.formulary              (press 3)\n\n"<<endl;
+        cout<<"Please! You Have Press: ";
+        cin>>press;
+        switch(press)
+        {
+        case 1:
+            cout<<endl<<"Modication Your Address:\n\n\t\t1.OK      (press 1)\n\t\t2.Change  (Press 2)"<<endl<<endl;
+            cout<<"Data Modification: ";
+            cin>>address;
+            if(address==1)
+            {
+                ok();
+            }
+            else
+            {
+                change();
+            }
+            break;
+
+        case 2:
+            cout<<"\n\n\t\t****** Change your Modication *****"<<endl<<endl;
+            input_Item();
+            break;
+
+        case 3:
+        {
+            cout<<"\n\t\t***** Search Your Drug *****\n"<<endl;
+            searchbox();
+
+        }
+
+        }
+    }
 }
 
 
