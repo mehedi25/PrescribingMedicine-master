@@ -161,7 +161,7 @@ void searchbox()                              // add seach medicine
     {
         cout<<"\n\t\tZoloft"<<endl;
     }
-  else
+  else                                        // If no medicine then show not available
   {
       cout<<"\n\t\tMedicine is not available"<<endl;  
   }
