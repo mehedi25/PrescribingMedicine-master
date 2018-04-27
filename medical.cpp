@@ -88,7 +88,7 @@ void change()
 }
 
 
-void searchbox()
+void searchbox()                              // add seach medicine
 {
     cout<<"Enter Drug First Name: ";
     cin>>first_letter;                      // Input Medicine First Letter
