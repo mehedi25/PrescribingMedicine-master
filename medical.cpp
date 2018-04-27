@@ -207,5 +207,17 @@ void medistore()
         }
     }
 }
+int main()
+{
+    cout<<endl<<"\t\t\t_____ This Is Patient Record _____"<<endl<<endl<<endl;
 
+    for(int i=0; i<10; i++)
+    {
+        cout<<"\t";
+        cout<<arr[i]<<endl;
+    }
+    cout<<endl<<endl;
+
+    medistore();
+}
 
