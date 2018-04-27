@@ -198,12 +198,14 @@ void medistore()
             break;
 
         case 3:
-        {
+       
             cout<<"\n\t\t***** Search Your Drug *****\n"<<endl;
             searchbox();
+            break;
 
-        }
-
+        default:                             
+            cout<<"You are not patient\n";
+            break;
         }
     }
 }
