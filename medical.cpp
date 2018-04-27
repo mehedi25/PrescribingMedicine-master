@@ -61,9 +61,9 @@ void ok()                                                            // it is pr
     cout<<"drug Name: Seclo\n\n\t\t1+0+1 only 1 in every month\n\n";
     cout<<"\t\t\t\t***** OK *****"<<endl;
 }
-void change()
+/*void change()
 {
-    cout<<"\n\n\t\t****** Change your Medication *****"<<endl<<endl;
+    
     cout<<"Change Item: ";
     cin>>num;
     cout<<endl;
@@ -86,6 +86,7 @@ void change()
     }
     cout<<endl<<"\t\t\t\t***** Confirm Prescription *****"<<endl<<endl;
 }
+*/
 
 
 void searchbox()                              // add seach medicine
@@ -188,12 +189,14 @@ void medistore()
             }
             else
             {
-                change();
+                cout<<"\n\n\t\t****** Change your Medication *****"<<endl<<endl;
+                input_Item();
             }
             break;
 
         case 2:
             cout<<"\n\n\t\t****** Change your Modication *****"<<endl<<endl;
+            
             input_Item();
             break;
 
