@@ -34,7 +34,7 @@ string drug[100]= {"Acetaminophen","Adderall","Alprazolam","Amitriptyline","Amlo
                   };
 void input_Item()
 {
-    cout<<"Change Item: ";
+    cout<<"Change Item name: ";
     cin>>num;
     cout<<endl;
     for(int j=0; j<num; j++)
