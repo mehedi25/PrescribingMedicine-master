@@ -3,6 +3,7 @@ using namespace std;
 
 int press,address;
 int age,serial,num;
+int gender;
 string name,gender,first_letter;
 string nam[100];
 string does[100];
