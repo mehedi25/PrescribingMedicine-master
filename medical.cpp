@@ -55,6 +55,7 @@ void input_Item()
         cout<<"\n\tdrug: "<<nam[j]<<"\tDoes: "<<does[j]<<"\tTime: "<<tim[j]<<endl<<endl;
     }
     cout<<endl<<"\t***** Confirm Prescription *****"<<endl<<endl;
+  cout<<"the medicine for only 7 days"<<endl;
 }
 void ok()                                                            // it is previous prescription
 {
