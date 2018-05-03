@@ -30,7 +30,7 @@ string drug[100]= {"Acetaminophen","Adderall","Alprazolam","Amitriptyline","Amlo
                    "Lexapro","Lisinopril","Loratadine","Lorazepam","Losartan",
                    "Lyrica","Meloxicam","Metformin","Metoprolol","Naproxen",
                    "Omeprazole","Oxycodone","Pantoprazole","Prednisone","Tramadol",
-                   "Trazodone","Viagra","Wellbutrin","Xanax","Zoloft","Valium"
+                   "Trazodone","Viagra","Wellbutrin","Xanax","Zoloft","Valium""Acetaminophen"
                   };
 void input_Item()
 {
